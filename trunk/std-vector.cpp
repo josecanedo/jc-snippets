@@ -17,3 +17,5 @@ for(auto i = vec.begin(); i  != vec.end(); ++i){*i = 42;}
 sort(vec.begin(), vec.end());
 T found = find(vec.begin(), vec.end()); //if not found, found = vec.end()
 reverse(vec.begin(), vec.end());
+
+/**/
