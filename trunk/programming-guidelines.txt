@@ -1,0 +1,61 @@
+First make it work, then make it fast.
+Elegance always pays off.
+Remember the "divide and conquer" principle.
+Separate the class creator from the class user (client programmer)
+Don’t fall into analysis paralysis
+Write the test code first (before you write the class)
+Remember a fundamental rule of software engineering1: All software design problems can be simplified by introducing an extra level of conceptual indirection.
+Make classes as atomic as possible
+Watch for long member function definitions.
+Watch for long argument lists.
+Don’t repeat yourself.
+Watch for switch statements or chained if-else clauses.
+From a design standpoint, look for and separate things that change from things that stay the same.
+Don’t extend fundamental functionality by subclassing
+Less is more.
+When deciding between inheritance and composition, ask if you need to upcast to the base type.
+When you put a virtual function in a class, make all functions in that class virtual, and put in a virtual destructor.
+Use data members for variation in value and virtual functions for variation in behavior.
+If you must do something nonportable, make an abstraction for that service and localize it within a class
+If two classes are associated with each other in some functional way (such as containers and iterators), try to make one a publicnested friend class of the other
+Operator overloading is only “syntactic sugar
+Don’t fall prey to premature optimization.
+Normally, don’t let the compiler create the constructors, destructors, or the operator= for you 
+If your class contains pointers, you must create the copyconstructor, operator=, and destructor for the class to work properly.
+When you write a copy-constructor for a derived class, remember to call the base-class copy-constructor explicitly
+When you write an assignment operator for a derived class, remember to call the base-class version of the assignment operator explicitly
+When writing a function, pass arguments by const reference as your first choice
+When creating constructors, consider exceptions.
+The responsibility of the destructor is to release resources allocated during the lifetime of the object, not just during construction.
+Throw exceptions by value and catch exceptions by reference
+Use the explicit casts
+For a program to be robust, each component must be robust. Use all the tools provided by C++: access control, exceptions, const-correctness, type checking, and so on in each class you create
+Hide your pointers inside container classes
+Sometimes simple aggregation does the job.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

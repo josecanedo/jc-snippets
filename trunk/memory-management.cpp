@@ -110,4 +110,4 @@ vector<std::tr1::shared_ptr<Foo>> f5(10);
 
 // You still have to allocate Foo objects (but don't delete them)
 // shared_ptr does not have an implicit conversion constructor..
-for(auto i = f2.begin(); i != f2.end(); ++i) *i = std::tr1::shared_ptr<Foo>(new Foo);
+for(auto i = f5.begin(); i != f5.end(); ++i) *i = std::tr1::shared_ptr<Foo>(new Foo);
