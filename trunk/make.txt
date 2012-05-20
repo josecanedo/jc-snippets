@@ -1,0 +1,13 @@
+For the GNU C++ compiler, for example, you might say
+g++ SourceFile1.cpp SourceFile2.cpp
+
+As a simple example, the makefile for a program called “hello”
+might contain:
+# A comment
+hello.exe: hello.cpp
+mycompiler hello.cpp
+
+//macros
+CPP = mycompiler
+hello.exe: hello.cpp
+$(CPP) hello.cpp
