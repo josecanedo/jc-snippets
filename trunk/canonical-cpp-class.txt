@@ -1,0 +1,13 @@
+The Canonical C++ Class
+
+.The term canonical is used to mean standard, typical, or conventional, and is meant to provide the programmer with guidance on a standard structure to a class, in particular, the functions required in order to have the class function properly.
+.The specification of the canonical class strictly comes into play only when the aliasing problem arises, namely when one or more of a class' data members are pointers (and thus shallow copying is the result of the default copy constructor and assignment operator).
+.The specification of the canonical class in this situation states: If a class contains one or more pointers as part of its state (data members), it must provide a:
+	.copy constructor
+	.overloaded assignment operator
+	.destructor
+to assure correct functioning.
+.Additionally, many texts add the following functions to their definition of a canonical class. Note that the following functions are not strictly necessary to the correct functioning of the class; rather they provide the facilitites to allow objects of the class to be manipulated in a manner identical to the built-in and predefined objects:
+	.an overloaded << (insertion) operator
+	.an overload == (equality) operator
+	.a default constructor
