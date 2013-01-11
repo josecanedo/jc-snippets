@@ -11,7 +11,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{2FBD0A28-F95A-48DB-9D70-F775ECD84F9D}</ProjectGuid>
+    <ProjectGuid>{0420A15A-D9FD-4C71-B67D-CCE8E754CED6}</ProjectGuid>
     <RootNamespace>simple_main</RootNamespace>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -60,7 +60,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="src\simple_inner_main.cpp" />
+    <ClCompile Include="src\observer.cpp" />
     <ClCompile Include="src\simple_main.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
