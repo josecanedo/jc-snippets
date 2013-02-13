@@ -4,7 +4,7 @@ using namespace std;
 
 /*initialization*/
 //vector<T> tvec(10); //create vector of 10 elements of type T
-vector<int> vec0; empty vector
+vector<int> vec0; //empty vector
 vector<int> vec1(10, 42); //10 elements init to 42
 vector<int> vec3(vec1); //vec3 is a copy of vec1
 
