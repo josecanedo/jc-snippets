@@ -41,7 +41,7 @@ private:
 	float _pressure;
 };
 
-class CurrentConditionsDisplay: public Observer, DisplayElement{
+class CurrentConditionsDisplay: public Observer, public DisplayElement{
 public:
 	CurrentConditionsDisplay(Subject* weatherData){_weatherData = weatherData; weatherData->registerObserver(this);};
 	virtual void update(float temp, float humidity, float pressure){_temperature = temp; _humidity = humidity; display();};
