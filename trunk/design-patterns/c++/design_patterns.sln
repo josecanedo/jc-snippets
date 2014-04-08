@@ -13,6 +13,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "simple_factory", "simple_fa
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "factory_method", "factory_method.vcxproj", "{CA966333-1F5C-48BC-AB02-5069DEFF4F7E}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "singleton", "singleton.vcxproj", "{598517CD-1129-412A-8988-0896FE5B8E5F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -43,6 +45,10 @@ Global
 		{CA966333-1F5C-48BC-AB02-5069DEFF4F7E}.Debug|Win32.Build.0 = Debug|Win32
 		{CA966333-1F5C-48BC-AB02-5069DEFF4F7E}.Release|Win32.ActiveCfg = Release|Win32
 		{CA966333-1F5C-48BC-AB02-5069DEFF4F7E}.Release|Win32.Build.0 = Release|Win32
+		{598517CD-1129-412A-8988-0896FE5B8E5F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{598517CD-1129-412A-8988-0896FE5B8E5F}.Debug|Win32.Build.0 = Debug|Win32
+		{598517CD-1129-412A-8988-0896FE5B8E5F}.Release|Win32.ActiveCfg = Release|Win32
+		{598517CD-1129-412A-8988-0896FE5B8E5F}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
