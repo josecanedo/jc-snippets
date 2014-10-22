@@ -49,7 +49,7 @@ public:
 	PizzaStore(SimplePizzaFactory* factory): factory_(factory){;};
 	~PizzaStore(){delete factory_;};
 	Pizza* orderPizza(const std::string& type){
-		Pizza* pizza = factory_->createPizza(type); //ignory erros
+		Pizza* pizza = factory_->createPizza(type); //ignore erros
 		pizza->prepare();
 		pizza->bake();
 		pizza->cut();
